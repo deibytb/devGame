@@ -14,6 +14,8 @@
 		C49FC9071D9B1ADA00FEC7EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49FC9051D9B1ADA00FEC7EA /* Main.storyboard */; };
 		C49FC9091D9B1ADA00FEC7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49FC9081D9B1ADA00FEC7EA /* Assets.xcassets */; };
 		C49FC90C1D9B1ADA00FEC7EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49FC90A1D9B1ADA00FEC7EA /* LaunchScreen.storyboard */; };
+		C49FC9171D9B1D1900FEC7EA /* Ship2.png in Resources */ = {isa = PBXBuildFile; fileRef = C49FC9161D9B1D1900FEC7EA /* Ship2.png */; };
+		C49FC91B1D9B217400FEC7EA /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = C49FC91A1D9B217400FEC7EA /* Ship.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C49FC9081D9B1ADA00FEC7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49FC90B1D9B1ADA00FEC7EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C49FC90D1D9B1ADA00FEC7EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49FC9161D9B1D1900FEC7EA /* Ship2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship2.png; sourceTree = "<group>"; };
+		C49FC91A1D9B217400FEC7EA /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		C49FC8FC1D9B1ADA00FEC7EA /* devGame */ = {
 			isa = PBXGroup;
 			children = (
+				C49FC9131D9B1B1100FEC7EA /* Assets */,
 				C49FC8FD1D9B1ADA00FEC7EA /* AppDelegate.swift */,
 				C49FC8FF1D9B1ADA00FEC7EA /* GameScene.sks */,
 				C49FC9011D9B1ADA00FEC7EA /* GameScene.swift */,
@@ -68,6 +73,15 @@
 				C49FC90D1D9B1ADA00FEC7EA /* Info.plist */,
 			);
 			path = devGame;
+			sourceTree = "<group>";
+		};
+		C49FC9131D9B1B1100FEC7EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C49FC91A1D9B217400FEC7EA /* Ship.png */,
+				C49FC9161D9B1D1900FEC7EA /* Ship2.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +144,8 @@
 			files = (
 				C49FC9001D9B1ADA00FEC7EA /* GameScene.sks in Resources */,
 				C49FC90C1D9B1ADA00FEC7EA /* LaunchScreen.storyboard in Resources */,
+				C49FC9171D9B1D1900FEC7EA /* Ship2.png in Resources */,
+				C49FC91B1D9B217400FEC7EA /* Ship.png in Resources */,
 				C49FC9091D9B1ADA00FEC7EA /* Assets.xcassets in Resources */,
 				C49FC9071D9B1ADA00FEC7EA /* Main.storyboard in Resources */,
 			);
